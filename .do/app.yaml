@@ -2,6 +2,7 @@ name: app-web
 region: sfo
 static_sites:
   - build_command: npm run build
+    catchall_document: index.html
     environment_slug: node-js
     github:
       branch: main
